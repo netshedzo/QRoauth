@@ -1,0 +1,41 @@
+.btnLogin
+{
+	-fx-background-color:rgb(219,20,17);
+	-fx-font-weight:700;
+	-fx-font-size:16px;
+	
+}
+
+.textInput
+{
+	-fx-background-color:transparent;
+	-fx-border-width:0px 0px 3px 0px;
+	-fx-border-color:rgba(219,20,33,0.8);
+	-fx-text-fill:rgba(219,20,17,0.7);
+   
+	
+}
+.uploadbutton
+{
+-fx-text-fill:rgba(245,245,255,0.9);	
+-fx-background-color:rgba(219,20,17,1);
+	-fx-font-weight:700;
+	-fx-font-size:16px;
+	
+}
+
+.reportLabel
+{
+-fx-text-fill:rgb(219,20,17);
+-fx-font-weight:bold;
+-fx-font-size:13px;
+}
+.profilebtn
+{
+	-fx-text-fill:ghostwhite;
+	-fx-background-color:rgb(219,20,17);
+}
+.Registerbtn
+{
+	-fx-background-color:transparent;
+}

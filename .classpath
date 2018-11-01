@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JavaFx"/>
+	<classpathentry kind="lib" path="C:/Users/davis/Downloads/webcam-capture-0.3.12-dist/webcam-capture-0.3.12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/davis/Downloads/webcam-capture-0.3.12-dist/libs/bridj-0.7.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/davis/Downloads/webcam-capture-0.3.12-dist/libs/slf4j-api-1.7.2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

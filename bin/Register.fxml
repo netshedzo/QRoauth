@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="556.0" prefWidth="400.0" scaleShape="false" style="-fx-background-color: white;" stylesheets="@Main.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="QRController">
+   <children>
+      <Button layoutX="88.0" layoutY="498.0" mnemonicParsing="false" onAction="#RegisterUser" prefHeight="30.0" prefWidth="249.0" styleClass="btnLogin" text="Register" textFill="WHITE" />
+      <ImageView fitHeight="56.0" fitWidth="182.0" layoutX="10.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../QRoathFullNoD.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="Username2" alignment="CENTER" layoutX="61.0" layoutY="152.0" prefHeight="45.0" prefWidth="303.0" promptText="enter Username" styleClass="textInput" />
+      <TextField fx:id="Password2" alignment="CENTER" layoutX="61.0" layoutY="225.0" prefHeight="45.0" prefWidth="303.0" promptText="enter Password" styleClass="textInput" />
+      <TextField fx:id="Surname" alignment="CENTER" layoutX="61.0" layoutY="297.0" prefHeight="45.0" prefWidth="303.0" promptText="enter Surname" styleClass="textInput" />
+      <TextField fx:id="Email" alignment="CENTER" layoutX="61.0" layoutY="371.0" prefHeight="45.0" prefWidth="303.0" promptText="enter Email" styleClass="textInput" />
+      <Button fx:id="UploadButton" layoutX="61.0" layoutY="429.0" mnemonicParsing="false" onAction="#Upload" prefHeight="37.0" prefWidth="303.0" styleClass="uploadbutton" text="Upload Image" />
+   </children>
+</AnchorPane>
